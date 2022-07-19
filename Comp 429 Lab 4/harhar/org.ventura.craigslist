@@ -1,0 +1,1674 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "Firefox",
+      "version": "85.0.2"
+    },
+    "browser": {
+      "name": "Firefox",
+      "version": "85.0.2"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2021-02-17T15:21:48.759-08:00",
+        "id": "page_4",
+        "title": "craigslist: ventura county jobs, apartments, for sale, services, community, and events",
+        "pageTimings": {
+          "onContentLoad": 1025,
+          "onLoad": 1304
+        }
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "page_4",
+        "startedDateTime": "2021-02-17T15:21:48.759-08:00",
+        "request": {
+          "bodySize": 0,
+          "method": "GET",
+          "url": "http://craigslist.com/",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "craigslist.com"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0"
+            },
+            {
+              "name": "Accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Upgrade-Insecure-Requests",
+              "value": "1"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "cookies": [],
+          "queryString": [],
+          "headersSize": 386
+        },
+        "response": {
+          "status": 301,
+          "statusText": "Found",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Set-Cookie",
+              "value": "cl_b=4|5dcf2e042b276876496f4de053b98adb0b2fdcf1|1613604103OaESc;path=/;domain=.craigslist.com;expires=Fri, 01-Jan-2038 00:00:00 GMT"
+            },
+            {
+              "name": "Location",
+              "value": "https://www.craigslist.org/"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "cl_b",
+              "value": "4|5dcf2e042b276876496f4de053b98adb0b2fdcf1|1613604103OaESc"
+            }
+          ],
+          "content": {
+            "mimeType": "text/html; charset=UTF-8",
+            "size": 59226,
+            "comment": "Response bodies are not included."
+          },
+          "redirectURL": "https://www.craigslist.org/",
+          "headersSize": 206,
+          "bodySize": 11270
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 89,
+          "dns": 0,
+          "connect": 84,
+          "ssl": 0,
+          "send": 0,
+          "wait": 81,
+          "receive": 0
+        },
+        "time": 254,
+        "_securityState": "insecure",
+        "serverIPAddress": "208.82.237.129",
+        "connection": "80"
+      },
+      {
+        "pageref": "page_4",
+        "startedDateTime": "2021-02-17T15:21:48.937-08:00",
+        "request": {
+          "bodySize": 0,
+          "method": "GET",
+          "url": "https://www.craigslist.org/",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "www.craigslist.org"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0"
+            },
+            {
+              "name": "Accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Upgrade-Insecure-Requests",
+              "value": "1"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "cookies": [],
+          "queryString": [],
+          "headersSize": 394
+        },
+        "response": {
+          "status": 302,
+          "statusText": "Found",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Set-Cookie",
+              "value": "cl_b=4|1a34c5bf9f9382c5d77cc547fab194f77979bb63|16136041041xwtY;path=/;domain=.craigslist.org;expires=Fri, 01-Jan-2038 00:00:00 GMT"
+            },
+            {
+              "name": "Location",
+              "value": "https://geo.craigslist.org/"
+            },
+            {
+              "name": "Strict-Transport-Security",
+              "value": "max-age=63072000"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "cl_b",
+              "value": "4|1a34c5bf9f9382c5d77cc547fab194f77979bb63|16136041041xwtY"
+            }
+          ],
+          "content": {
+            "mimeType": "text/html; charset=UTF-8",
+            "size": 59226,
+            "comment": "Response bodies are not included."
+          },
+          "redirectURL": "https://geo.craigslist.org/",
+          "headersSize": 251,
+          "bodySize": 11315
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 135,
+          "dns": 50,
+          "connect": 28,
+          "ssl": 54,
+          "send": 0,
+          "wait": 33,
+          "receive": 28
+        },
+        "time": 328,
+        "_securityState": "secure",
+        "serverIPAddress": "208.82.238.129",
+        "connection": "443"
+      },
+      {
+        "pageref": "page_4",
+        "startedDateTime": "2021-02-17T15:21:49.136-08:00",
+        "request": {
+          "bodySize": 0,
+          "method": "GET",
+          "url": "https://geo.craigslist.org/",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "geo.craigslist.org"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0"
+            },
+            {
+              "name": "Accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cookie",
+              "value": "cl_b=4|1a34c5bf9f9382c5d77cc547fab194f77979bb63|16136041041xwtY"
+            },
+            {
+              "name": "Upgrade-Insecure-Requests",
+              "value": "1"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "cl_b",
+              "value": "4|1a34c5bf9f9382c5d77cc547fab194f77979bb63|16136041041xwtY"
+            }
+          ],
+          "queryString": [],
+          "headersSize": 467
+        },
+        "response": {
+          "status": 302,
+          "statusText": "Found",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Content-Type",
+              "value": "text/html; charset=iso-8859-1"
+            },
+            {
+              "name": "X-Frame-Options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Wed, 17 Feb 2021 23:21:44 GMT"
+            },
+            {
+              "name": "Location",
+              "value": "https://ventura.craigslist.org"
+            },
+            {
+              "name": "Date",
+              "value": "Wed, 17 Feb 2021 23:21:44 GMT"
+            },
+            {
+              "name": "Content-Length",
+              "value": "1"
+            },
+            {
+              "name": "Server",
+              "value": "Apache"
+            },
+            {
+              "name": "Strict-Transport-Security",
+              "value": "max-age=63072000"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "mimeType": "text/html; charset=UTF-8",
+            "size": 59226,
+            "comment": "Response bodies are not included."
+          },
+          "redirectURL": "https://ventura.craigslist.org",
+          "headersSize": 301,
+          "bodySize": 11365
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 134,
+          "dns": 65,
+          "connect": 29,
+          "ssl": 37,
+          "send": 0,
+          "wait": 36,
+          "receive": 0
+        },
+        "time": 301,
+        "_securityState": "secure",
+        "serverIPAddress": "208.82.238.241",
+        "connection": "443"
+      },
+      {
+        "pageref": "page_4",
+        "startedDateTime": "2021-02-17T15:21:49.310-08:00",
+        "request": {
+          "bodySize": 0,
+          "method": "GET",
+          "url": "https://ventura.craigslist.org/",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "ventura.craigslist.org"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0"
+            },
+            {
+              "name": "Accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cookie",
+              "value": "cl_b=4|1a34c5bf9f9382c5d77cc547fab194f77979bb63|16136041041xwtY"
+            },
+            {
+              "name": "Upgrade-Insecure-Requests",
+              "value": "1"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "cl_b",
+              "value": "4|1a34c5bf9f9382c5d77cc547fab194f77979bb63|16136041041xwtY"
+            }
+          ],
+          "queryString": [],
+          "headersSize": 471
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Last-Modified",
+              "value": "Wed, 17 Feb 2021 22:41:19 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=3600, public"
+            },
+            {
+              "name": "Set-Cookie",
+              "value": "cl_def_hp=ventura; path=/; domain=.craigslist.org; expires=Thu, 06-Apr-2073 21:22:38 GMT"
+            },
+            {
+              "name": "Date",
+              "value": "Wed, 17 Feb 2021 22:41:19 GMT"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "Content-Length",
+              "value": "11064"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/html; charset=UTF-8"
+            },
+            {
+              "name": "X-Frame-Options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "name": "Server",
+              "value": "Apache"
+            },
+            {
+              "name": "Expires",
+              "value": "Wed, 17 Feb 2021 23:41:19 GMT"
+            },
+            {
+              "name": "Strict-Transport-Security",
+              "value": "max-age=63072000"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "cl_def_hp",
+              "value": "ventura"
+            }
+          ],
+          "content": {
+            "mimeType": "text/html; charset=UTF-8",
+            "size": 59226,
+            "text": "removed"
+          },
+          "redirectURL": "",
+          "headersSize": 481,
+          "bodySize": 11545
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 109,
+          "dns": 45,
+          "connect": 27,
+          "ssl": 35,
+          "send": 0,
+          "wait": 33,
+          "receive": 7
+        },
+        "time": 256,
+        "_securityState": "secure",
+        "serverIPAddress": "208.82.238.2",
+        "connection": "443"
+      },
+      {
+        "pageref": "page_4",
+        "startedDateTime": "2021-02-17T15:21:49.494-08:00",
+        "request": {
+          "bodySize": 0,
+          "method": "GET",
+          "url": "https://www.craigslist.org/styles/cl.css?v=895ee7273a87d9cb4ca54aecd87ac8fb",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "www.craigslist.org"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0"
+            },
+            {
+              "name": "Accept",
+              "value": "text/css,*/*;q=0.1"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Referer",
+              "value": "https://ventura.craigslist.org/"
+            },
+            {
+              "name": "Cookie",
+              "value": "cl_b=4|1a34c5bf9f9382c5d77cc547fab194f77979bb63|16136041041xwtY; cl_def_hp=ventura"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "cl_b",
+              "value": "4|1a34c5bf9f9382c5d77cc547fab194f77979bb63|16136041041xwtY"
+            },
+            {
+              "name": "cl_def_hp",
+              "value": "ventura"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "v",
+              "value": "895ee7273a87d9cb4ca54aecd87ac8fb"
+            }
+          ],
+          "headersSize": 490
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Last-Modified",
+              "value": "Tue, 16 Feb 2021 21:14:23 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=2592000, public"
+            },
+            {
+              "name": "Date",
+              "value": "Tue, 16 Feb 2021 21:14:23 GMT"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "Content-Length",
+              "value": "8819"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/css"
+            },
+            {
+              "name": "X-Frame-Options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "name": "Server",
+              "value": "Apache"
+            },
+            {
+              "name": "Expires",
+              "value": "Thu, 18 Mar 2021 21:14:23 GMT"
+            },
+            {
+              "name": "Strict-Transport-Security",
+              "value": "max-age=63072000"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "mimeType": "text/css",
+            "size": 38817,
+            "text": "removed"
+          },
+          "redirectURL": "",
+          "headersSize": 365,
+          "bodySize": 9184
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 80,
+          "dns": 3,
+          "connect": 30,
+          "ssl": 43,
+          "send": 0,
+          "wait": 36,
+          "receive": 1
+        },
+        "time": 193,
+        "_securityState": "secure",
+        "serverIPAddress": "208.82.238.129",
+        "connection": "443"
+      },
+      {
+        "pageref": "page_4",
+        "startedDateTime": "2021-02-17T15:21:49.497-08:00",
+        "request": {
+          "bodySize": 0,
+          "method": "GET",
+          "url": "https://www.craigslist.org/styles/homepage.css?v=4f3e3b8b3dea6fc65ce2ddf377ce17d6",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "www.craigslist.org"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0"
+            },
+            {
+              "name": "Accept",
+              "value": "text/css,*/*;q=0.1"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Referer",
+              "value": "https://ventura.craigslist.org/"
+            },
+            {
+              "name": "Cookie",
+              "value": "cl_b=4|1a34c5bf9f9382c5d77cc547fab194f77979bb63|16136041041xwtY; cl_def_hp=ventura"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "cl_b",
+              "value": "4|1a34c5bf9f9382c5d77cc547fab194f77979bb63|16136041041xwtY"
+            },
+            {
+              "name": "cl_def_hp",
+              "value": "ventura"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "v",
+              "value": "4f3e3b8b3dea6fc65ce2ddf377ce17d6"
+            }
+          ],
+          "headersSize": 496
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Last-Modified",
+              "value": "Mon, 08 Feb 2021 17:18:42 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=2592000, public"
+            },
+            {
+              "name": "Date",
+              "value": "Mon, 08 Feb 2021 17:18:42 GMT"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "Content-Length",
+              "value": "4391"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/css"
+            },
+            {
+              "name": "X-Frame-Options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "name": "Server",
+              "value": "Apache"
+            },
+            {
+              "name": "Expires",
+              "value": "Wed, 10 Mar 2021 17:18:42 GMT"
+            },
+            {
+              "name": "Strict-Transport-Security",
+              "value": "max-age=63072000"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "mimeType": "text/css",
+            "size": 16792,
+            "text": "removed"
+          },
+          "redirectURL": "",
+          "headersSize": 365,
+          "bodySize": 4756
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 77,
+          "dns": 2,
+          "connect": 28,
+          "ssl": 41,
+          "send": 0,
+          "wait": 33,
+          "receive": 3
+        },
+        "time": 184,
+        "_securityState": "secure",
+        "serverIPAddress": "208.82.238.129",
+        "connection": "443"
+      },
+      {
+        "pageref": "page_4",
+        "startedDateTime": "2021-02-17T15:21:49.500-08:00",
+        "request": {
+          "bodySize": 0,
+          "method": "GET",
+          "url": "https://www.craigslist.org/styles/jquery-ui-clcustom.css?v=3b05ddffb7c7f5b62066deff2dda9339",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "www.craigslist.org"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0"
+            },
+            {
+              "name": "Accept",
+              "value": "text/css,*/*;q=0.1"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Referer",
+              "value": "https://ventura.craigslist.org/"
+            },
+            {
+              "name": "Cookie",
+              "value": "cl_b=4|1a34c5bf9f9382c5d77cc547fab194f77979bb63|16136041041xwtY; cl_def_hp=ventura"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "cl_b",
+              "value": "4|1a34c5bf9f9382c5d77cc547fab194f77979bb63|16136041041xwtY"
+            },
+            {
+              "name": "cl_def_hp",
+              "value": "ventura"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "v",
+              "value": "3b05ddffb7c7f5b62066deff2dda9339"
+            }
+          ],
+          "headersSize": 506
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Last-Modified",
+              "value": "Wed, 03 Feb 2021 15:25:55 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=2592000, public"
+            },
+            {
+              "name": "Date",
+              "value": "Wed, 03 Feb 2021 15:25:55 GMT"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "Content-Length",
+              "value": "7530"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/css"
+            },
+            {
+              "name": "X-Frame-Options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "name": "Server",
+              "value": "Apache"
+            },
+            {
+              "name": "Expires",
+              "value": "Fri, 05 Mar 2021 15:25:55 GMT"
+            },
+            {
+              "name": "Strict-Transport-Security",
+              "value": "max-age=63072000"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "mimeType": "text/css",
+            "size": 30969,
+            "text": "removed"
+          },
+          "redirectURL": "",
+          "headersSize": 365,
+          "bodySize": 7895
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 75,
+          "dns": 1,
+          "connect": 29,
+          "ssl": 40,
+          "send": 0,
+          "wait": 36,
+          "receive": 5
+        },
+        "time": 186,
+        "_securityState": "secure",
+        "serverIPAddress": "208.82.238.129",
+        "connection": "443"
+      },
+      {
+        "pageref": "page_4",
+        "startedDateTime": "2021-02-17T15:21:49.501-08:00",
+        "request": {
+          "bodySize": 0,
+          "method": "GET",
+          "url": "https://www.craigslist.org/js/general-concat.min.js?v=d57cd66738ba244cfb1208d38b30bd33",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "www.craigslist.org"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Referer",
+              "value": "https://ventura.craigslist.org/"
+            },
+            {
+              "name": "Cookie",
+              "value": "cl_b=4|1a34c5bf9f9382c5d77cc547fab194f77979bb63|16136041041xwtY; cl_def_hp=ventura"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "cl_b",
+              "value": "4|1a34c5bf9f9382c5d77cc547fab194f77979bb63|16136041041xwtY"
+            },
+            {
+              "name": "cl_def_hp",
+              "value": "ventura"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "v",
+              "value": "d57cd66738ba244cfb1208d38b30bd33"
+            }
+          ],
+          "headersSize": 486
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Last-Modified",
+              "value": "Mon, 08 Feb 2021 21:28:32 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=2592000, public"
+            },
+            {
+              "name": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "name": "Date",
+              "value": "Mon, 08 Feb 2021 21:28:32 GMT"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/javascript"
+            },
+            {
+              "name": "X-Frame-Options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "name": "Server",
+              "value": "Apache"
+            },
+            {
+              "name": "Expires",
+              "value": "Wed, 10 Mar 2021 21:28:32 GMT"
+            },
+            {
+              "name": "Strict-Transport-Security",
+              "value": "max-age=63072000"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "mimeType": "application/javascript",
+            "size": 372262,
+            "text": "removed"
+          },
+          "redirectURL": "",
+          "headersSize": 385,
+          "bodySize": 109306
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 83,
+          "dns": 4,
+          "connect": 33,
+          "ssl": 46,
+          "send": 0,
+          "wait": 33,
+          "receive": 103
+        },
+        "time": 302,
+        "_securityState": "secure",
+        "serverIPAddress": "208.82.238.129",
+        "connection": "443"
+      },
+      {
+        "pageref": "page_4",
+        "startedDateTime": "2021-02-17T15:21:49.501-08:00",
+        "request": {
+          "bodySize": 0,
+          "method": "GET",
+          "url": "https://www.craigslist.org/js/homepage-concat.min.js?v=4577567af718c25c8498818a74e84c07",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "www.craigslist.org"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Referer",
+              "value": "https://ventura.craigslist.org/"
+            },
+            {
+              "name": "Cookie",
+              "value": "cl_b=4|1a34c5bf9f9382c5d77cc547fab194f77979bb63|16136041041xwtY; cl_def_hp=ventura"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "cl_b",
+              "value": "4|1a34c5bf9f9382c5d77cc547fab194f77979bb63|16136041041xwtY"
+            },
+            {
+              "name": "cl_def_hp",
+              "value": "ventura"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "v",
+              "value": "4577567af718c25c8498818a74e84c07"
+            }
+          ],
+          "headersSize": 487
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 12 Feb 2021 21:32:57 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=2592000, public"
+            },
+            {
+              "name": "Date",
+              "value": "Fri, 12 Feb 2021 21:32:57 GMT"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "Content-Length",
+              "value": "2131"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/javascript"
+            },
+            {
+              "name": "X-Frame-Options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "name": "Server",
+              "value": "Apache"
+            },
+            {
+              "name": "Expires",
+              "value": "Sun, 14 Mar 2021 21:32:57 GMT"
+            },
+            {
+              "name": "Strict-Transport-Security",
+              "value": "max-age=63072000"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "mimeType": "application/javascript",
+            "size": 5127,
+            "text": "removed"
+          },
+          "redirectURL": "",
+          "headersSize": 379,
+          "bodySize": 2510
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 83,
+          "dns": 1,
+          "connect": 34,
+          "ssl": 45,
+          "send": 0,
+          "wait": 36,
+          "receive": 4
+        },
+        "time": 203,
+        "_securityState": "secure",
+        "serverIPAddress": "208.82.238.129",
+        "connection": "443"
+      },
+      {
+        "pageref": "page_4",
+        "startedDateTime": "2021-02-17T15:21:49.857-08:00",
+        "request": {
+          "bodySize": 0,
+          "method": "GET",
+          "url": "https://www.craigslist.org/static/www/localStorage-b2c30773fe82c3d5e475613ad0f725fa9ab277fb.html",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "www.craigslist.org"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0"
+            },
+            {
+              "name": "Accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Referer",
+              "value": "https://ventura.craigslist.org/"
+            },
+            {
+              "name": "Cookie",
+              "value": "cl_b=4|1a34c5bf9f9382c5d77cc547fab194f77979bb63|16136041041xwtY; cl_def_hp=ventura"
+            },
+            {
+              "name": "Upgrade-Insecure-Requests",
+              "value": "1"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "cl_b",
+              "value": "4|1a34c5bf9f9382c5d77cc547fab194f77979bb63|16136041041xwtY"
+            },
+            {
+              "name": "cl_def_hp",
+              "value": "ventura"
+            }
+          ],
+          "queryString": [],
+          "headersSize": 597
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Last-Modified",
+              "value": "Sun, 31 Jan 2021 16:39:33 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=2592000, public"
+            },
+            {
+              "name": "Date",
+              "value": "Sun, 31 Jan 2021 16:39:33 GMT"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "Content-Length",
+              "value": "873"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/html; charset=utf-8"
+            },
+            {
+              "name": "Server",
+              "value": "Apache"
+            },
+            {
+              "name": "Expires",
+              "value": "Tue, 02 Mar 2021 16:39:33 GMT"
+            },
+            {
+              "name": "Strict-Transport-Security",
+              "value": "max-age=63072000"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "mimeType": "text/html; charset=utf-8",
+            "size": 3407,
+            "text": "removed"
+          },
+          "redirectURL": "",
+          "headersSize": 351,
+          "bodySize": 1224
+        },
+        "cache": {},
+        "timings": {
+          "blocked": -1,
+          "dns": 0,
+          "connect": 0,
+          "ssl": 0,
+          "send": 0,
+          "wait": 30,
+          "receive": 1
+        },
+        "time": 31,
+        "_securityState": "secure",
+        "serverIPAddress": "208.82.238.129",
+        "connection": "443"
+      },
+      {
+        "pageref": "page_4",
+        "startedDateTime": "2021-02-17T15:21:49.995-08:00",
+        "request": {
+          "bodySize": 0,
+          "method": "GET",
+          "url": "https://ventura.craigslist.org/favicon.ico",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "ventura.craigslist.org"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0"
+            },
+            {
+              "name": "Accept",
+              "value": "image/webp,*/*"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Referer",
+              "value": "https://ventura.craigslist.org/"
+            },
+            {
+              "name": "Cookie",
+              "value": "cl_b=4|1a34c5bf9f9382c5d77cc547fab194f77979bb63|16136041041xwtY; cl_def_hp=ventura"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "cl_b",
+              "value": "4|1a34c5bf9f9382c5d77cc547fab194f77979bb63|16136041041xwtY"
+            },
+            {
+              "name": "cl_def_hp",
+              "value": "ventura"
+            }
+          ],
+          "queryString": [],
+          "headersSize": 453
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Cache-Control",
+              "value": "public"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Tue, 16 Feb 2021 23:45:28 GMT"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "Date",
+              "value": "Wed, 17 Feb 2021 04:21:44 GMT"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "Content-Length",
+              "value": "331"
+            },
+            {
+              "name": "Content-Type",
+              "value": "image/vnd.microsoft.icon"
+            },
+            {
+              "name": "X-Frame-Options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "name": "Server",
+              "value": "Apache"
+            },
+            {
+              "name": "Expires",
+              "value": "Sat, 15 Feb 2031 04:21:44 GMT"
+            },
+            {
+              "name": "Strict-Transport-Security",
+              "value": "max-age=63072000"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "mimeType": "image/vnd.microsoft.icon",
+            "size": 1150,
+            "encoding": "base64",
+            "text": "removed"
+          },
+          "redirectURL": "",
+          "headersSize": 385,
+          "bodySize": 716
+        },
+        "cache": {},
+        "timings": {
+          "blocked": -1,
+          "dns": 0,
+          "connect": 0,
+          "ssl": 0,
+          "send": 0,
+          "wait": 28,
+          "receive": 1
+        },
+        "time": 29,
+        "_securityState": "secure",
+        "serverIPAddress": "208.82.238.2",
+        "connection": "443"
+      },
+      {
+        "pageref": "page_4",
+        "startedDateTime": "2021-02-17T15:21:50.223-08:00",
+        "request": {
+          "bodySize": 0,
+          "method": "GET",
+          "url": "https://www.craigslist.org/js/search-concat.min.js?v=479560d204750a708a9a5558aefe82b7",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "www.craigslist.org"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0"
+            },
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.5"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "X-Moz",
+              "value": "prefetch"
+            },
+            {
+              "name": "DNT",
+              "value": "1"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Referer",
+              "value": "https://ventura.craigslist.org/"
+            },
+            {
+              "name": "Cookie",
+              "value": "cl_b=4|1a34c5bf9f9382c5d77cc547fab194f77979bb63|16136041041xwtY; cl_def_hp=ventura"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "cl_b",
+              "value": "4|1a34c5bf9f9382c5d77cc547fab194f77979bb63|16136041041xwtY"
+            },
+            {
+              "name": "cl_def_hp",
+              "value": "ventura"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "v",
+              "value": "479560d204750a708a9a5558aefe82b7"
+            }
+          ],
+          "headersSize": 502
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Last-Modified",
+              "value": "Sat, 13 Feb 2021 18:28:58 GMT"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "max-age=2592000, public"
+            },
+            {
+              "name": "Date",
+              "value": "Sat, 13 Feb 2021 18:28:58 GMT"
+            },
+            {
+              "name": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "Content-Length",
+              "value": "13443"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/javascript"
+            },
+            {
+              "name": "X-Frame-Options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "name": "Server",
+              "value": "Apache"
+            },
+            {
+              "name": "Expires",
+              "value": "Mon, 15 Mar 2021 18:28:58 GMT"
+            },
+            {
+              "name": "Strict-Transport-Security",
+              "value": "max-age=63072000"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "mimeType": "application/javascript",
+            "size": 40161,
+            "text": "removed"
+          },
+          "redirectURL": "",
+          "headersSize": 380,
+          "bodySize": 13823
+        },
+        "cache": {},
+        "timings": {
+          "blocked": -1,
+          "dns": 0,
+          "connect": 0,
+          "ssl": 0,
+          "send": 0,
+          "wait": 32,
+          "receive": 8
+        },
+        "time": 40,
+        "_securityState": "secure",
+        "serverIPAddress": "208.82.238.129",
+        "connection": "443"
+      }
+    ]
+  }
+}
