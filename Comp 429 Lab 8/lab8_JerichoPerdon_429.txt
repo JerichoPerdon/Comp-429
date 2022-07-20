@@ -1,0 +1,45 @@
+Jericho Perdon
+Prof Scrivnor
+Comp 429
+14 April 2021
+
+Lab 8: TCP: conn. mgmt. 
+
+Qanda
+
+1) What field in the TCP header determines the length of the header?
+
+Answer: The field in the TCP header that determines the length of the header is the TCP Data Offset, where
+one word represents 4 bytes.
+
+2) What is the minimum and maximum number of bytes a TCP header can have.
+
+Answer: The minimum number of bytes a TCP header can have is 20 bytes while the maximum number is 60 bytes.
+
+3) It is not possible to have a 23 byte header, why not? What is used to pad the data?
+
+Answer: It is possible to have a 23 byte header because the length of a TCP header is typically 20 bytes, with
+no options field. If there was an option field with an Option-Length of 3 bytes, the TCP header will have 23 bytes 
+total.
+
+4) What is required for a TCP segment to be considered valid for a given connection?
+
+Answer: A connection between the client and server needs to be established for a TCP segment to be 
+considered valid for a given connection.
+
+5) You notice a TCP SYN packet with the same 4-tuple occurring at regular intervals in a packet capture. 
+Those time interval since the first packet sent seems to be 2s, 4s, 8s, 16s, 32s, and 64s. 
+What is this behavior called?
+
+Answer: The behavior is called in-window or Predictable Number Sequence.
+
+
+
+TCP Printout
+
+1) The Ethernet header is 14 bytes, the IP header is 20 bytes, TCP header begins on the byte immediately after. 
+Highlight the sequence numbers and acknowledgment numbers of each packet.
+
+2) Draw a diagram, similar to Figure 13-1, and include the actual sequence/acknowledgment numbers of the exchange.
+
+3) Add to your diagram, the TCP state each connection is in. See Figure 13-9 as a reference.

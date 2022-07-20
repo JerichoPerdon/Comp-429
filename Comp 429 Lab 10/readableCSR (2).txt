@@ -1,0 +1,45 @@
+Certificate Request:
+    Data:
+        Version: 1 (0x0)
+        Subject: C = US, ST = California, L = Oxnard, O = COMP429, CN = Jericho Perdon
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                RSA Public-Key: (2048 bit)
+                Modulus:
+                    00:b8:9b:10:fe:32:c5:8f:55:ef:61:4d:d8:d5:d7:
+                    26:f5:67:6e:98:09:64:2b:8a:8c:d3:1a:c2:87:be:
+                    7d:e7:98:43:a6:eb:08:f2:52:2f:93:af:7d:ff:9a:
+                    85:31:bd:5b:3d:39:b4:d8:47:96:25:57:38:c3:7d:
+                    e1:33:23:d6:f5:31:5c:7b:5b:08:89:82:ef:10:da:
+                    2a:c0:19:ad:68:ef:5c:72:a1:3f:3c:99:8c:cb:48:
+                    e2:19:23:03:f6:8c:60:da:40:ec:24:75:a8:0c:cf:
+                    db:62:02:dd:da:c8:3b:37:f4:36:99:58:12:4a:33:
+                    29:92:0c:e7:32:4b:f4:a7:c7:8f:a5:cf:d8:14:05:
+                    02:8e:ca:01:28:08:d5:55:44:c9:e1:9b:04:fb:1e:
+                    b1:c0:e3:8d:ce:84:2d:f3:51:49:6e:a4:1a:3a:d9:
+                    f4:9c:65:01:7a:65:1b:1c:34:7f:30:93:3c:5e:2e:
+                    7b:1c:7d:e5:01:d8:75:ba:30:bf:f4:0a:aa:1d:d6:
+                    2c:d5:66:f9:7b:35:aa:51:bc:ae:ca:02:63:89:7d:
+                    c2:52:63:4e:fc:15:62:50:95:7c:a0:27:87:91:b9:
+                    28:bd:4d:44:b0:45:8b:9b:49:55:74:44:42:9e:f7:
+                    92:f3:15:72:a9:38:ae:1b:21:50:0e:f7:c9:7b:02:
+                    43:fb
+                Exponent: 65537 (0x10001)
+        Attributes:
+            challengePassword        :JERICHO429
+    Signature Algorithm: sha256WithRSAEncryption
+         0f:df:df:ff:81:d4:90:dc:ef:f2:03:be:8d:c6:29:d4:5c:dc:
+         64:ce:1e:16:3b:82:40:e8:2c:45:a6:93:88:2a:75:17:55:37:
+         f0:6b:ea:73:7d:58:cb:34:f0:ca:ec:de:e1:b5:56:f7:31:f1:
+         4f:25:ea:f0:35:f2:2b:4d:26:27:62:d1:ab:0d:89:8e:56:f4:
+         33:e3:36:8f:3b:f4:94:ad:5a:3f:67:c9:19:f0:78:d7:29:19:
+         17:08:60:61:16:9f:d3:11:b9:9f:60:1c:81:c8:4c:38:89:2e:
+         eb:a4:c0:a2:4f:43:b9:d8:0e:ea:c9:33:bb:1d:5a:eb:11:10:
+         e7:12:43:0a:0a:fc:3e:c2:4c:46:30:d1:b4:02:dc:af:36:e3:
+         4c:2f:9f:d1:a1:d4:27:b2:4f:18:7c:85:54:21:cc:4e:2f:e7:
+         0c:92:05:64:e2:53:30:b1:4c:1a:b8:3e:41:92:54:a6:32:28:
+         f5:fc:cd:d9:0f:c9:39:7c:c0:bc:c8:50:dc:4f:29:bc:bb:5d:
+         6e:dc:ca:76:77:a3:8d:41:be:d4:56:a4:d2:8e:c4:fc:2b:3c:
+         ef:f9:00:86:ea:ba:61:88:b7:d8:07:9a:7a:5c:cf:bf:4f:e9:
+         61:61:85:db:09:a0:ac:25:87:9f:95:24:95:d1:29:3f:a4:d7:
+         f9:8e:97:8a

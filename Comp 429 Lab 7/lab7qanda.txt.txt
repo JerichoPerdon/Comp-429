@@ -1,0 +1,61 @@
+Jericho Perdon
+Prof Scrivnor
+Comp 429
+9 April 2021
+
+Lab 7
+
+Qanda
+
+At time t=0, what is the sender state?
+
+	At time t=0, the sender state is Wait for ACK 0. 
+
+At time t=0, what is the receiver state?
+
+	At time t=0, the receiver state is Wait for 0 from below.
+
+At time t=0, what is the sequence/ack # of the packet?
+
+	At time t=0, the sequence/ack # of the packet is 0. 
+
+At time t=1, what is the sender state?
+
+	At time t=1, the sender state is Wait for ACK 0.
+
+At time t=1, what is the receiver state?
+
+	At time t=1, the receiver state is Wait for 1 from below.
+
+At time t=1, what is the sequence/ack # of the packet?
+
+	At time t=1, the sequence/ack # of the packet is 0. 
+
+At time t=2, what is the sender state?
+
+	At time t=2, the sender state is Wait for ACK 0.
+
+At time t=2, what is the receiver state?
+
+	At time t =2, the receiver state is Wait for 1 from below.
+
+At time t=2, what is the sequence/ack # of the packet?
+
+	At time t=2, the sequence/ack # of the packet is 0.
+
+ At time t=3, what is the sender state?
+
+	At time t=3, the sender state is Wait for ACK 0.
+
+At time t=3, what is the receiver state?
+
+	At time t=3, the receiver state is Wait for 1 from below.
+
+At time t=3, what is the sequence/ack # of the packet?
+
+	At time t=3, the sequence/ack # of the packet is 0.
+
+ How many times is the payload of the received packet passed up to the higher layer?
+	
+	The times the payload of the received packet is passed up to the higher layer is one.
+	
